@@ -4,6 +4,6 @@ def prime?(num)
 
   return false if num < 2
 
-  (2..num).each 
+  (2...num).each do |check_num| 
 
 end
